@@ -11,6 +11,21 @@
 An advanced, highly modular framework designed for ethical hackers, penetration testers, and security researchers to audit and exploit 802.11 wireless networks. This tool streamlines complex attack vectors into a comprehensive, automated, and interactive terminal interface.
 </div>
 
+
+# 💀 WiFiSlayer v3.0 - Ultimate Wireless Penetration Testing Framework
+
+**WiFiSlayer** is an advanced, automated, and highly interactive Wi-Fi penetration testing tool designed for ethical hackers, cybersecurity researchers, and pentesters. It streamlines complex wireless attacks into a sleek, professional terminal UI (available in both English and Arabic).
+
+##  Core Features (Why WiFiSlayer?)
+*   **WPA/WPA2 Cracking:** Automated Handshake and PMKID capture.
+*   **Evil Twin Attacks:** Seamlessly deploy rogue access points.
+*   **Deauthentication & Flooding:** Disrupt target networks using MDK4 and Aireplay-ng.
+*   **Network Sniffing:** Monitor traffic and detect vulnerabilities in real-time.
+*   **MAC Spoofing:** Stay completely anonymous during security audits.
+*   **Rich UI:** Breathtaking, interactive terminal interface with responsive animations.
+
+> **Disclaimer:** WiFiSlayer is developed for educational purposes and authorized security auditing only. The developer assumes no liability for illegal usage.
+
 ## Overview
 
 The WiFiSlayerTool Framework automates the process of wireless auditing by combining industry-standard tools (aircrack-ng, reaver, mdk4, hcxdumptool, hostapd, dnsmasq) into a centralized execution environment. It features dual-language support, automated hardware detection, dynamic MAC spoofing, and advanced client-less attack vectors.
