@@ -36,6 +36,7 @@ The WiFiSlayerTool Framework automates the process of wireless auditing by combi
   <img src="screenshots/1.png" width="400" alt="Scanner View" />
   <img src="screenshots/2.png" width="400" alt="Main Menu Arabic" />
   <img src="screenshots/2_en.png" width="400" alt="Main Menu English" />
+    <img src="screenshots/3.jpg" width="400" alt="Main Menu English" />
 </div>
 
 ## Core Capabilities
